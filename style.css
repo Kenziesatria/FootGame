@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.hero{
+    display:flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.sidebar{
+    background-color: white;
+    flex: 1;
+    padding: 0 24px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 251px;
+    margin-left: -20px;
+}
+
+.text-logo{
+    font-weight: 500;
+    font-size: 40px;
+    letter-spacing: 0.1em;
+    margin-left: -50px;
+}
+
+.sidebar-text{
+    font-weight: 600;
+    font-size: 48px;
+    letter-spacing: 0.15em;
+    margin-top: 8px;
+}
+
+.sidebar>img{
+    margin-top: 100px;
+}
+
+.article{
+    background-color: navy;
+    flex: 3;
+    padding: 5% 10%;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.menu a{
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.content{
+    background-color: white;
+    padding: 20px;
+    border-radius: 16px;
+    display: flex;
+    gap: 20px;
+}
+
+.card{
+    background-color: lightgrey;
+    width: calc(100%/4);
+}
+
+.card img{
+    width: 100%;
+}
+
+.text-card{
+    font-weight: 500;
+    padding: 16px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.update{
+    font-weight: 600;
+    padding: 20% 0;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
